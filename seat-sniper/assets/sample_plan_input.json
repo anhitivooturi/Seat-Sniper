@@ -1,0 +1,95 @@
+{
+  "goals": {
+    "start_term": "Fall 2026",
+    "graduation_term": "Spring 2028",
+    "pace": "light",
+    "max_credits_per_term": 15,
+    "allow_summer": false,
+    "internship_term": "Summer 2027",
+    "extra_credits_needed": 6,
+    "minor_credits": 9
+  },
+  "completed": ["CS 101", "MATH 101"],
+  "in_progress": [],
+  "courses": [
+    {
+      "code": "CS 201",
+      "title": "Data Structures",
+      "credits": 4,
+      "prereqs": ["CS 101"],
+      "core": true,
+      "difficulty": 3,
+      "offered": ["Fall", "Spring"]
+    },
+    {
+      "code": "CS 210",
+      "title": "Discrete Math for CS",
+      "credits": 3,
+      "prereqs": ["MATH 101"],
+      "core": true,
+      "difficulty": 4
+    },
+    {
+      "code": "CS 301",
+      "title": "Algorithms",
+      "credits": 3,
+      "prereqs": ["CS 201", "CS 210"],
+      "core": true,
+      "difficulty": 5
+    },
+    {
+      "code": "CS 310",
+      "title": "Computer Systems",
+      "credits": 4,
+      "prereqs": ["CS 201"],
+      "core": true,
+      "difficulty": 4,
+      "offered": ["Fall"]
+    },
+    {
+      "code": "CS 320",
+      "title": "Databases",
+      "credits": 3,
+      "prereqs": ["CS 201"],
+      "core": true,
+      "difficulty": 3,
+      "offered": ["Spring"]
+    },
+    {
+      "code": "CS 401",
+      "title": "Senior Capstone",
+      "credits": 3,
+      "prereqs": [["CS 301", "CS 310"]],
+      "core": true,
+      "difficulty": 3,
+      "offered": ["Spring"]
+    },
+    {
+      "code": "STAT 240",
+      "title": "Statistics",
+      "credits": 3,
+      "prereqs": ["MATH 101"],
+      "difficulty": 3
+    },
+    {
+      "code": "WRIT 200",
+      "title": "Technical Writing",
+      "credits": 3,
+      "summer_ok": true,
+      "difficulty": 2
+    },
+    {
+      "code": "ETHC 210",
+      "title": "Ethics in Technology",
+      "credits": 3,
+      "difficulty": 2
+    },
+    {
+      "code": "CS 350",
+      "title": "Software Engineering",
+      "credits": 3,
+      "prereqs": ["CS 201"],
+      "difficulty": 3
+    }
+  ]
+}
